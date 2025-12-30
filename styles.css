@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto;
+}
+
+body {
+    background-color: #1F2937
+}
+
+/*FIRST LAYOUT*/
+
+.top {
+    max-width: 1000px;
+    margin: 0px auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+    /*Header*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+    /*top content*/
+
+.top-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.left {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.right {
+    flex: 2;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid royalblue;
+    border-radius: 8px;
+}
+
+.left button {
+    align-self: flex-start;
+    padding: 6px 40px;
+    font-size: 16px;
+    border: 1px solid #1F2937;
+    border-radius: 6px;;
+}
+
+.left h1 {
+    font-size: 70px;
+}
+
+.left p {
+    font-size: 25px;
+}
+
+/*SECOND LAYOUT*/
+
+.information {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px 10px 150px 10px;
+    align-items: center;
+
+}
+
+.information h2 {
+    font-size: 35px;
+    color: royalblue;
+}
+
+.images {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+}
+
+
+.image img {
+    border: 5px solid royalblue;
+    border-radius: 8px;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.image p {
+    text-align: center;
+    font-size: 17px;
+    color: royalblue;
+    font-weight: 600;
+}
+
+/*THIRD LAYOUT*/
+
+.quote {
+    padding: 120px 0px 120px 0px;
+    margin: 0px auto;
+    max-width: 1000px;
+    color: white;
+}
+
+.text {
+    font-size: 30px;
+    margin-bottom: 8px;
+    padding: 0px 20px 0px 20px;
+}
+
+.author {
+    text-align: end;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 40px;
+}
+
+
