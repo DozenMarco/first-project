@@ -36,6 +36,14 @@ ul {
     gap: 15px;
 }
 
+.header div {
+    font-size: 30px;
+}
+
+ul li {
+    font-size: 20px;
+}
+
     /*top content*/
 
 .top-content {
@@ -125,7 +133,7 @@ ul {
     padding: 120px 0px 120px 0px;
     margin: 0px auto;
     max-width: 1000px;
-    color: white;
+    background-color: lightgray;
 }
 
 .text {
@@ -139,6 +147,60 @@ ul {
     font-size: 20px;
     font-weight: bold;
     padding-right: 40px;
+}
+
+/*FOURTH LAYOUT*/
+.sign-container {
+    background-color: white;
+    padding: 100px 0px 100px 0px;
+}
+
+
+
+.sign {
+    max-width: 800px;
+    background-color: royalblue;
+    margin: 0px auto;
+    padding: 40px 60px 40px 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign div {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    color: white;
+}
+
+.sign div h2 {
+    font-size: 40px;
+}
+
+.sign div p {
+    font-size: 20px;
+}
+
+.sign button {
+    flex-shrink: 0;
+    padding: 6px 30px;
+    height: 40px;
+    align-self: center;
+    font-size: 20px;
+    border: 1px solid royalblue;
+    border-radius: 6px;
+}
+
+/*FIFTH LAYOUT*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: white;
+    font-size: 18px;
 }
 
 
